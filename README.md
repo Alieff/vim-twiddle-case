@@ -2,7 +2,7 @@
 
 Change case of your visually selected text into any available case
 
-Usage : 
+## Usage : 
 1. Select your text
 2. press alt+backtick once
 3. then press alt+backtick / alt+shift+backtick to cycle between case
@@ -17,3 +17,14 @@ available case :
 7. UPPER CASE
 
 Note : this plugin extend http://vim.wikia.com/wiki/Switching_case_of_characters 
+
+## Installation : 
+
+1. Downlod twiddle-case.vim 
+2. add this line into your `vimrc` (adjust ``<your-path>``)
+
+    `so  <your-path>/predefined-macro.vim`
+
+
+## License : 
+GNU GPL
