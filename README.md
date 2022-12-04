@@ -1,13 +1,21 @@
-# VIM Twiddle Case
+# Feature
+This vim plugin allow you to switch case of visually-selected text
 
-Change case of your visually selected text into any available case
+#### Demo
+![Demo](docs/demo.gif)
+
+# Installation
+## Pathogen
+
+Clone this repo to your plugin folder (usually in $HOME/.vim/bundle/)
+
 
 ## Usage : 
 1. Select your text
-2. press alt+backtick once
-3. then press alt+backtick / alt+shift+backtick to cycle between case
+2. press `<alt+i>` once
+3. then press `<alt+i>` / `<alt+s+i>` to cycle between case
 
-available case : 
+Available case : 
 1. Reset Case
 2. camelCase
 3. snake_case
@@ -17,14 +25,3 @@ available case :
 7. UPPER CASE
 
 Note : this plugin extend http://vim.wikia.com/wiki/Switching_case_of_characters 
-
-## Installation : 
-
-1. Downlod twiddle-case.vim 
-2. add this line into your `vimrc` (adjust ``<your-path>``)
-
-    `so  <your-path>/predefined-macro.vim`
-
-
-## License : 
-GNU GPL
